@@ -20,8 +20,8 @@ Make sure your `git`, `hexo` and `Node.js` workflow is fine. Hexon only provide 
 
 ```bash
 git clone https://github.com/gethexon/hexon
-pnpm install
-pnpm run setup
+npm install
+npm run setup
 ```
 
 ### Uninstall
@@ -34,8 +34,8 @@ rm -rf hexon
 ### Start
 
 ```bash
-pnpm start # for plain nodejs
-pnpm prd # for pm2
+npm start # for plain nodejs
+npm prd # for pm2
 ```
 
 ### Update
@@ -44,17 +44,17 @@ Hexon is still under development, so just reinstall from fresh to avoid errors.
 
 ## 💻 Commands
 
-- `pnpm run setup`: install and config
-- `pnpm start`: start hexon with node
-- `pnpm prd`: start hexon with pm2
-- `pnpm resetpwd`: reset password
-- `pnpm script`: manage custom script
+- `npm run setup`: install and config
+- `npm start`: start hexon with node
+- `npm prd`: start hexon with pm2
+- `npm resetpwd`: reset password
+- `npm script`: manage custom script
 
 ## 🖥️ Develop
 
 - Check out `develop` branch.
-- Run `pnpm dev-init` install dependencies and config hexon.
-- Run `pnpm dev` and show your magic!
+- Run `npm dev-init` install dependencies and config hexon.
+- Run `npm dev` and show your magic!
 
 ## 💩 Have trouble?
 
