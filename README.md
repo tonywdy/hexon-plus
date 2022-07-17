@@ -1,5 +1,17 @@
 # Hexon
 
+🀄️[中文文档]()
+
+## Premise of use
+
+First of all, you need the environment of pnpm！How to install pnpm？
+Input instructions to install pnpm：
+
+```
+npm install pnpm -g
+```
+
+
 ## 🎉 New Name
 
 winwin-hexo-editor has been renamed to Hexon witch means hexo online. Wish you love it!
@@ -20,8 +32,8 @@ Make sure your `git`, `hexo` and `Node.js` workflow is fine. Hexon only provide 
 
 ```bash
 git clone https://github.com/gethexon/hexon
-npm install
-npm run setup
+pnpm install
+pnpm run setup
 ```
 
 ### Uninstall
@@ -34,8 +46,8 @@ rm -rf hexon
 ### Start
 
 ```bash
-npm start # for plain nodejs
-npm prd # for pm2
+pnpm start # for plain nodejs
+pnpm prd # for pm2
 ```
 
 ### Update
@@ -44,17 +56,17 @@ Hexon is still under development, so just reinstall from fresh to avoid errors.
 
 ## 💻 Commands
 
-- `npm run setup`: install and config
-- `npm start`: start hexon with node
-- `npm prd`: start hexon with pm2
-- `npm resetpwd`: reset password
-- `npm script`: manage custom script
+- `pnpm run setup`: install and config
+- `pnpm start`: start hexon with node
+- `pnpm prd`: start hexon with pm2
+- `pnpm resetpwd`: reset password
+- `pnpm script`: manage custom script
 
 ## 🖥️ Develop
 
 - Check out `develop` branch.
-- Run `npm dev-init` install dependencies and config hexon.
-- Run `npm dev` and show your magic!
+- Run `pnpm dev-init` install dependencies and config hexon.
+- Run `pnpm dev` and show your magic!
 
 ## 💩 Have trouble?
 
