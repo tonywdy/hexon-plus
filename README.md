@@ -1,6 +1,6 @@
 # Hexon
 
-🀄️[中文文档]()
+🀄️[中文文档](https://github.com/tonywdy/hexon-plus/blob/master/README-CN.md)
 
 ## Premise of use
 
