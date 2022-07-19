@@ -31,7 +31,7 @@ Make sure your `git`, `hexo` and `Node.js` workflow is fine. Hexon only provide 
 ### Install
 
 ```bash
-git clone https://github.com/gethexon/hexon
+https://github.com/tonywdy/hexon-plus.git
 pnpm install
 pnpm run setup
 ```
